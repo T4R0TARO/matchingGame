@@ -22,9 +22,12 @@ All of the logic of the game will be contained withing this event listener.
 */
 /*Sorts the items withing the array
   Then randomize the numer order*/
-     cardArray.sort(() => 0.5 - Math.random())
+     cardArray.sort(() => Math.random())
 ```
 
+1. If we, to start the game the imgs will be set im the same spot ever time 
+2. To randomize the arrays content we will use sort() and Math.random()
+3. We take the cardsArray and randomize the order with  sort() and Math.random()
 ------------------------------------------------------------------------------------
 
 ```js
@@ -121,8 +124,19 @@ All of the logic of the game will be contained withing this event listener.
     }   
 ```
 
+1. We need to do something so create a function to checkForMatch()
+2. Capture ALL the new card items with `document.querySelectorAll()
+3. Create seperate variables for the card options from the cardsChosenID array
+4. Next create a condition where the items inside the cardsChosen array must equal each other
+5. If the cards are equal then assign the white image to the card
+6. Also make another empty array named `cardsWon` and push() the matched cards to the array 
+7. If the cards do NOT match, we want to have the cards flip back so they can be played again so we set the attribute to the blank img 
+8. Next, regardless of what outcome occurs we want the arrays cleared afterward so set the *cardsChose* array and  *cardsChosenId* to and empty array
+9. With *textConent* we can display the text of the player score. Capture the `<span>` in a variable 
+10. If the cardsWon array's length is equal to cardArray length we know that we used all the cards in the array and we can alert the user with text on the page
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid eligendi minus quia dolores temporibus hic perferendis earum eveniet veniam incidunt.
+
+
 
 ------------------------------------------------------------------------------------
 
