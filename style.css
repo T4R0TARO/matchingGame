@@ -1,0 +1,21 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 1.5rem;
+  font-family: Assistant,sans-serif;
+  background: #23273a;
+  color: #f1b1eb;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto ;
+  width: 400px;
+  height: 300px;
+}
+
+footer div p {
+  font-size: 10px;
+}
