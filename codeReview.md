@@ -160,7 +160,7 @@ All of the logic of the game will be contained withing this event listener.
 ```
 
 1. We need to DO something so, create a function to flipCard()
-2. get the `data-id` attribute and contain it within a varible refering to `this` function
+2. get the `data-id` attribute and contain it within a varible refering to `this` functions card chosen 
 3. Make an empty array called ` let cardsChosen = []`; placed higher up on the doc 
 4. With `push()`, push the *card* from the *cardArray* by using its *[cardId]* when the card is located *name* property obtained.
 5. Do the same with the  push *cardId* to the *cardsChosenId*
