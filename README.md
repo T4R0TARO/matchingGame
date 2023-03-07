@@ -1,6 +1,6 @@
-# Matching Game App 
+# Memory Game App 
 
-Simple JS Matching game where the user matches image pairs until there are no images left
+Simple JS Memory game where the user matches image pairs until there are no images left
 
 ## Table of Contents
    - [Usage](#usage)
